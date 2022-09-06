@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Kanban Task Management Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is an adapted version to the [Kanban task management web app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/kanban-task-management-web-app-wgQLt-HlbB).
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+### The challenge
 
-### `npm start`
+Users should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- View the layout in the desktop and tablet screen dimensions (768px, 1024px and 1440px). I haven't done the mobile design because I wouldn't use an app like this in smaller screens and I wanted to practice my React skills in this project.
+- Create, read, update, and delete boards and tasks
+- Keep track of any changes, even after refreshing the browser
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Screenshots
 
-### `npm test`
+## Initial Screen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./images/Kanban%20_initial.png)
 
-### `npm run build`
+## Add Board Modal
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](./images/Kanban%20_add_board.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Add Task Modal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](./images/Kanban%20_add_task.png)
 
-### `npm run eject`
+## Edit Board Modal
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](./images/Kanban%20_edit_board_modal.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Edit Task status
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![](./images/Kanban_edit_task_2.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Main Screen with Tasks and Boards
 
-## Learn More
+![](./images/Kanban%20_tasks_board.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Live Site URL: (https://fernando-kanban-app.netlify.app/)
 
-### Code Splitting
+### Built with
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [React](https://reactjs.org/) - JS library
 
-### Analyzing the Bundle Size
+### What I learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+In this project I had to manage various states from different components in order to render the modals and save the state information in a way the app could manage and access that information. I challenged myself not to look at any kind of solution or way to get this project done to ensure that I could come up with a solution by myself and practice my problem-solving skills.
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- LinkedIn - (https://www.linkedin.com/in/fernando-de-paula-alves-profile/)
