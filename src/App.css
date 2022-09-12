@@ -225,7 +225,6 @@ ul {
 }
 
 .task-list {
-  transition: all 0.3s linear;
 }
 .item {
   background-color: #2b2c37;
@@ -235,10 +234,11 @@ ul {
   border-radius: 0.25rem;
   cursor: pointer;
   text-transform: capitalize;
+  transition: all 0.3s linear;
 }
 
-.task-list:hover {
-  transform: translateX(5px);
+.item:hover {
+  transform: translateX(9px);
 }
 
 .subtask {

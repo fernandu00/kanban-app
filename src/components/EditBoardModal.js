@@ -18,9 +18,9 @@ const EditBoardModal = ({
     const newBoard = {
       id: currentBoard.id,
       name: name,
-      todo: [],
-      doing: [],
-      done: [],
+      todo: currentBoard.todo,
+      doing: currentBoard.doing,
+      done: currentBoard.done,
     };
     setBoardsList((newBoardsList) => {
       return [...newBoardsList, newBoard];
